@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Dados locais e caches de downloads
+data/
+.kagglehub/
+
+# Execuções e artefatos gerados
+mlruns/
+mlflow.db
+mlflow.db-shm
+mlflow.db-wal
+artifacts/*
+!artifacts/.gitkeep
+
+# Editor / sistema operacional
+.vscode/
+.idea/
+Thumbs.db
+Desktop.ini
